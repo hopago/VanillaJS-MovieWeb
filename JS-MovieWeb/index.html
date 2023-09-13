@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sen:wght@400;500;700&family=Urbanist:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,100;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/72c1373c95.js" crossorigin="anonymous"></script>
+    <title>Movie Web</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Javaflix</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movie</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img 
+                  src="https://images.pexels.com/photos/3362696/pexels-photo-3362696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  alt="" 
+                  class="profile-picture"
+                >
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="fas sidebar-menu-icon fa-search"></i>
+        <i class="fas sidebar-menu-icon fa-home"></i>
+        <i class="fas sidebar-menu-icon fa-users"></i>
+        <i class="fas sidebar-menu-icon fa-bookmark"></i>
+        <i class="fas sidebar-menu-icon fa-tv"></i>
+        <i class="fas sidebar-menu-icon fa-hourglass-start"></i>
+        <i class="fas sidebar-menu-icon fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div 
+            class="featured-content"
+            style="
+            background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), 
+            url('https://images.pexels.com/photos/4520480/pexels-photo-4520480.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); 
+            background-repeat: none; 
+            background-size: cover; 
+            background-position: 50% 50%"
+            >
+              <div class="featured-info-container">
+                <h1 class="featured-title">Cute Hamster</h1>
+                <p class="featured-desc">Cute hamster always help people!!!!!!!!!!!</p>
+                <button class="featured-button">WATCH HIM</button>
+              </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div 
+            class="featured-content"
+            style="
+            background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), 
+            url('https://images.pexels.com/photos/6727774/pexels-photo-6727774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); 
+            background-repeat: none; 
+            background-size: cover; 
+            background-position: 50% 25%"
+            >
+              <div class="featured-info-container">
+                <h1 class="featured-title">Cute Animal</h1>
+                <p class="featured-desc">Cute Animal always help people!!!!!!!!!!!</p>
+                <button class="featured-button">WATCH HIM</button>
+              </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img 
+                            class='movie-list-item-img' 
+                            src="https://images.pexels.com/photos/11612114/pexels-photo-11612114.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                            alt=""
+                            >
+                            <span class="movie-list-item-title">Cute</span>
+                            <p class="movie-list-item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ea, placeat reiciendi</p>
+                            <button class="movie-list-item-button">WATCH THIS</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
